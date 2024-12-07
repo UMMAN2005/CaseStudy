@@ -15,8 +15,7 @@ public class Database {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-//        return DriverManager.getConnection(URL, USER, PASSWORD);
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/CaseStudy", "root", "DELLg155515");
+        return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
 
